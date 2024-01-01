@@ -4,7 +4,7 @@ function Article() {
       <div className="article_card">
         <div className="arcicle_container">
           <div className="article_title">
-            <h3>Заголовок статьи</h3>
+            <h3 className="title">Заголовок статьи</h3>
           </div>
           <div className="article_grid_container">
             <div className="article_grid-item">
@@ -14,7 +14,7 @@ function Article() {
             </div>
             <div className="article_grid-item">
               <div className="article_text">
-                <p>
+                <p className="text">
                   Но глубокий уровень погружения позволяет выполнить важные
                   задания по разработке кластеризации усилий. Сложно сказать,
                   почему предприниматели в сети интернет неоднозначны и будут
