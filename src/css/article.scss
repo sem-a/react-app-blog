@@ -1,2 +1,58 @@
 $border-radius-card: 10px;
 $background-color: white;
+$padding-container-hrz: 28px;
+$padding-container-vrt: 21px;
+
+.article {
+    margin-top: 28px;
+}
+.article_card {
+    min-height: 238px;
+}
+.article_card, .article_comment {
+    background-color: $background-color;
+    border-radius: $border-radius-card;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 9px;
+}
+.article_container {
+    position: relative;
+    padding: $padding-container-vrt $padding-container-hrz;
+}
+.article_content {
+    margin-top: 14px;
+    padding-bottom: 56px;
+}
+.article_img img {
+    float: left;
+    margin: 0px 28px 14px 0px;
+    min-height: 145px;
+    max-width: 165px;
+}
+.article_author_and_date {
+    position: absolute;
+    bottom: $padding-container-vrt;
+    right: $padding-container-hrz;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.article_author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.article_date, .author_nik {
+    font-size: 10px;
+    font-weight: 400;
+}
+.anonim_img {
+    width: 28px;
+    height: 28px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+.article_date {
+    margin-right: 35px;
+}
