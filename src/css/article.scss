@@ -2,6 +2,7 @@ $border-radius-card: 10px;
 $background-color: white;
 $padding-container-hrz: 28px;
 $padding-container-vrt: 21px;
+$comment-user-circle-size: 28px;
 
 .article {
     margin-top: 28px;
@@ -55,4 +56,39 @@ $padding-container-vrt: 21px;
 }
 .article_date {
     margin-right: 35px;
+}
+
+/* comment */
+
+
+.comment_grid_container {
+    display: grid;
+    grid-template-columns: $comment-user-circle-size auto;
+    column-gap: 7px;
+    align-items: flex-end;
+}
+.comment_message {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 14px;
+}
+.comment_user_circle {
+    width: $comment-user-circle-size;
+    height: $comment-user-circle-size;
+    background-color: gray;
+    border-radius: 50%;
+}
+.comment_time_and_date {
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 7px;
+}
+.comment_time {
+    margin-right: 7px;
+}
+.comment_form {
+    margin-top: 28px;
 }

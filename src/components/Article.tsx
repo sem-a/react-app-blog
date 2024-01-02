@@ -1,4 +1,5 @@
 import "../css/article.scss";
+import Comment from "./Comment";
 
 function Article() {
   return (
@@ -35,13 +36,7 @@ function Article() {
           </div>
         </div>
       </div>
-      <div className="article_comment">
-        <div className="article_container">
-          <form action="#">
-            <input type="text" className="form_input" placeholder="Оставить комментарий..." />
-          </form>
-        </div>
-      </div>
+      <Comment />
     </div>
   );
 }

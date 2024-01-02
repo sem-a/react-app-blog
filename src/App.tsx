@@ -4,6 +4,7 @@ import './css/main.scss';
 import './css/reset.scss';
 import Title from './components/Title';
 import Article from './components/Article';
+import AdditionalMenu from './components/AdditionalMenu';
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
       <Header />
       <div className="container">
         <Title />
-        <Article />
+        <div className="app_grid_container">
+          <Article />
+          <AdditionalMenu />
+        </div>
       </div>
     </div>
   );

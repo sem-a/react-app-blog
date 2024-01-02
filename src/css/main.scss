@@ -8,6 +8,10 @@ $title-h3-size: 24px;
 $title-h3-color: black;
 $title-h3-weight: 700;
 
+$title-h4-size: 20px;
+$title-h4-color: black;
+$title-h4-weight: 700;
+
 $text-p-size: 14px;
 $text-p-color: black;
 $text-p-weight: 400;
@@ -36,14 +40,23 @@ h3.title {
   font-weight: $title-h3-weight;
   color: $title-h3-color;
 }
+h4.title {
+  font-size: $title-h4-size;
+  font-weight: $title-h4-weight;
+  color: $title-h4-color;
+}
 p.text {
   font-size: $text-p-size;
   font-weight: $text-p-weight;
   color: $text-p-color;
   line-height: $text-p-lineheight;
 }
-
 input.form_input {
   font-size: 14px;
   color: black;
+}
+.app_grid_container {
+  display: grid;
+  grid-template-columns: auto 257px;
+  column-gap: 42px;
 }
